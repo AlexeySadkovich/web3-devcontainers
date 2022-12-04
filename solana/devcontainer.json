@@ -1,0 +1,20 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/rust
+{
+	"name": "Solana",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"SOLANA_RELEASE": "v1.14.9"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"tonwhales.func-vscode",
+				"robbowen.synthwave-vscode",
+				"bierner.markdown-preview-github-styles",
+			]
+		}
+	}
+}
