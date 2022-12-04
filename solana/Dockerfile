@@ -20,7 +20,6 @@ RUN npm install -g typescript
 RUN curl -LJO https://github.com/solana-labs/solana/releases/download/${SOLANA_RELEASE}/solana-release-x86_64-unknown-linux-gnu.tar.bz2
 RUN tar jxf solana-release-x86_64-unknown-linux-gnu.tar.bz2
 RUN cd solana-release && export PATH=$PWD/bin:$PATH
-# RUN echo "export PATH=$PATH:/usr/solana-release/bin" >> /root/.bashrc
 ENV PATH $PATH:/usr/solana-release/bin
 
 # Install anchor
