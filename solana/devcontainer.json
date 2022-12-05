@@ -11,8 +11,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"tonwhales.func-vscode",
-				"robbowen.synthwave-vscode",
+				"rust-lang.rust-analyzercode",
+				"jdinhlife.gruvbox",
 				"bierner.markdown-preview-github-styles",
 			]
 		}

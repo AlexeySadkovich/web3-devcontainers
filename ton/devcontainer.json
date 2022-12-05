@@ -8,8 +8,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"rust-lang.rust-analyzercode",
-				"jdinhlife.gruvbox",
+				"tonwhales.func-vscode",
+				"robbowen.synthwave-vscode",
 				"bierner.markdown-preview-github-styles"
 			]
 		}
