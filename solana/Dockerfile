@@ -11,7 +11,7 @@ RUN apt-get update -y && apt-get upgrade -y && apt-get install -y \
     libssl-dev
 
 # Install nodejs
-RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - 
+RUN curl -sL https://deb.nodesource.com/setup_18.x | bash - 
 RUN apt-get install -y nodejs
 
 RUN npm install -g typescript
