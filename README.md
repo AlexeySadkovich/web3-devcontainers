@@ -14,6 +14,7 @@ _See [official documentation](https://code.visualstudio.com/docs/devcontainers/c
 
 - [x] Solana
 - [x] TON
-- [ ] Ethereum
+- [x] Ethereum (Solidity)
+- [x] Ethereum (Vyper)
 - [ ] NEAR Protocol
 - [ ] Tezos
